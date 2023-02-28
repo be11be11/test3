@@ -1,22 +1,9 @@
 @charset "UTF-8";
 
 .main{
-　　　background-image: url("jpg その他 image 1.JPEG");
-　　　background-size: cover;
-　　　position: relative;
-　　　display: flex;
-　　　justify-content: center;
-　　　align-items: center;
-}
+	background-image: url("jpg その他 image 1.JPEG");
+	background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
 
-.main::before {
-　width:250px;
-　height:175px;
-　z-index: 0;
-　content: “”;
-　display: block;
-　position: absolute;
-　top: 0;
-　left: 0;
-　background-color: rgba(20,30,40,0.5);
 }
