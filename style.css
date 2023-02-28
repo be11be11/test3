@@ -1,7 +1,22 @@
 @charset "UTF-8";
 
 .main{
-	background-image: url("jpg その他 image 1.JPEG");
-	background-size: cover;
-  background-repeat: no-repeat;
+　　　background-image: url("jpg その他 image 1.JPEG");
+　　　background-size: cover;
+　　　position: relative;
+　　　display: flex;
+　　　justify-content: center;
+　　　align-items: center;
+}
+
+.main::before {
+　width:250px;
+　height:175px;
+　z-index: 0;
+　content: “”;
+　display: block;
+　position: absolute;
+　top: 0;
+　left: 0;
+　background-color: rgba(20,30,40,0.5);
 }
