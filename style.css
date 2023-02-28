@@ -1,10 +1,2 @@
 @charset "UTF-8";
 
-.main{
-	width: 800px;
-	background-image: url("jpg その他 image 1.JPEG");
-	background-size: cover;
-        background-repeat: no-repeat;
-        display: flex;
-
-}
